@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# FactoryFourReact Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack
+
+- NodeJS Version 16.14.2
+- React Version 18.2.0
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `yarn` or `npm install`
+3. Create the environment variables files in root folder(.env, .env.production):
+
+`.env` example:
+
+```
+  REACT_APP_TIME_UPDATE=15000
+```
 
 ## Available Scripts
 
