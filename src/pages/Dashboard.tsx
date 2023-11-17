@@ -31,14 +31,6 @@ const Dashboard = () => {
   
     try {
       const results = await Promise.all(statusPromises);
-      /* 
-      const updatedStatuses = await Promise.allSettled(statusPromises);
-      debugger
-
-      const fulfilledStatuses = updatedStatuses
-        .filter((result): result is PromiseFulfilledResult<StatusType> => result.status === 'fulfilled' || result.status === 'rejected')
-        .map((result) => result.value );
-      */
       
       setStatuses(results);
     } catch (error) {
